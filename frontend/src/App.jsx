@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import axios from "axios";
 import { FaSearchengin } from "react-icons/fa";
 
-const API = "http://localhost:4000";
+const API = "https://ai-resumeplayground.onrender.com";
 
 function App() {
   const [profile, setProfile] = useState([]);
